@@ -1,11 +1,11 @@
 # Deep-Learning
 1. coco data를 AI challenge 형태로 변환하기
 
-head_point = cv2.circle(img_resize,
+     head_point = cv2.circle(img_resize,
                             ((set_p[2][0]+set_p[1][0])//2,
                              (set_p[2][1]+set_p[1][1])*3//2-set_p[0][1]*2)
                             , 5, (255, 0, 0), cv2.FILLED)
-    neck_point = cv2.circle(img_resize,
+     neck_point = cv2.circle(img_resize,
                             ((set_p[6][0]+set_p[5][0])//2,
                              (set_p[6][1]+set_p[5][1])//3+ set_p[0][1]//3)
                             , 5, (255, 0, 0), cv2.FILLED)
